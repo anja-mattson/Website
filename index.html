@@ -6,8 +6,6 @@
     </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src= "js/scripts.js"> </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -23,8 +21,8 @@
     </div>
   </div>
 </nav>
-    <h1> Contraceptive Methods</h1>
-    <h2> What contracpetive method suits me? </h2>
+    <h1> Go With The Flow</h1>
+    <h2> What contraceptive method suits me? </h2>
     <br>
     <h3> Barrier Methods</h3>
     <div class="condoms">
@@ -35,9 +33,8 @@
         </tr>
         <tr>
           <td> <div class="malecondom">
-                  <div class="hovercontent">
+                  <div class="hovercontenta">
                     <div>
-                      <p> Condoms(male)</p>
                       <ul>
                         <li> Protects against STIs</li>
                         <li> 82% effective</li>
@@ -48,9 +45,8 @@
           </td>
           <td>
             <div class="femalecondom">
-                    <div class="hovercontent">
+                    <div class="hovercontentb">
                       <div>
-                        <p> Condoms(female)</p>
                         <ul>
                           <li> No STI protection</li>
                           <li> 79% effective</li>
@@ -70,9 +66,8 @@
         </tr>
         <tr>
           <td> <div class="cervicalcap">
-                  <div class="hovercontent">
+                  <div class="hovercontentc">
                     <div>
-                      <p> Cervical Cap</p>
                       <ul>
                         <li> No STI protection</li>
                         <li> 71% effective</li>
@@ -82,9 +77,8 @@
                   </div>
           </td>
           <td> <div class="diaphragm">
-                  <div class="hovercontent">
+                  <div class="hovercontentd">
                     <div>
-                      <p> Diaphragm</p>
                       <ul>
                         <li> No STI protection</li>
                         <li> 92% effective</li>
@@ -106,9 +100,8 @@
           </tr>
           <tr>
             <td> <div class="cocp">
-                    <div class="hovercontent">
+                    <div class="hovercontente">
                       <div>
-                        <p> COCP</p>
                         <ul>
                           <li> No STI protection</li>
                           <li> 99% effective with perfect use</li>
@@ -118,9 +111,8 @@
                     </div>
             </td>
             <td> <div class="minipill">
-                    <div class="hovercontent">
+                    <div class="hovercontentf">
                       <div>
-                        <p> Mini-Pill</p>
                         <ul>
                           <li> No STI protection</li>
                           <li> 99% effective with perfect use</li>
@@ -141,9 +133,8 @@
         </tr>
         <tr>
           <td> <div class="implant">
-                  <div class="hovercontent">
+                  <div class="hovercontentg">
                     <div>
-                      <p> Implant</p>
                       <ul>
                         <li> No STI protection</li>
                         <li> Over 99% effective</li>
@@ -153,9 +144,8 @@
                   </div>
           </td>
           <td> <div class="IUS">
-                  <div class="hovercontent">
+                  <div class="hovercontenth">
                     <div>
-                      <p> IUS</p>
                       <ul>
                         <li> No STI protection</li>
                         <li> Over 99% effective</li>
@@ -173,9 +163,8 @@
         </tr>
         <tr>
           <td> <div class="injection">
-                  <div class="hovercontent">
+                  <div class="hovercontenti">
                     <div>
-                      <p> Injection</p>
                       <ul>
                         <li> No STI protection</li>
                         <li> 94% effective</li>
@@ -185,9 +174,8 @@
                   </div>
           </td>
           <td> <div class="IUD">
-                  <div class="hovercontent">
+                  <div class="hovercontentj">
                     <div>
-                      <p> IUD</p>
                       <ul>
                         <li> No STI protection</li>
                         <li> 99% effective</li>
@@ -208,9 +196,8 @@
         </tr>
         <tr>
           <td> <div class="malesteri">
-                  <div class="hovercontent">
+                  <div class="hovercontentk">
                     <div>
-                      <p> Male Sterilisation</p>
                       <ul>
                         <li> No STI protection</li>
                         <li> Over 99% effective</li>
@@ -220,9 +207,8 @@
                   </div>
           </td>
           <td> <div class="femalesteri">
-                  <div class="hovercontent">
+                  <div class="hovercontentl">
                     <div>
-                      <p> Female Sterilisation</p>
                       <ul>
                         <li> No STI protection</li>
                         <li> Over 99% effective</li>
@@ -234,5 +220,82 @@
         </tr>
       </table>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(".malecondom").hover(function()
+    {
+      $(".hovercontenta").css("display", "block");
+    }, function(){
+  $(".hovercontenta").css("display", "none");
+    });
+    $(".femalecondom").hover(function()
+    {
+      $(".hovercontentb").css("display", "block");
+    }, function(){
+  $(".hovercontentb").css("display", "none");
+    });
+    $(".cervicalcap").hover(function()
+    {
+      $(".hovercontentc").css("display", "block");
+    }, function(){
+  $(".hovercontentc").css("display", "none");
+    });
+    $(".diaphragm").hover(function()
+    {
+      $(".hovercontentd").css("display", "block");
+    }, function(){
+  $(".hovercontentd").css("display", "none");
+    });
+    $(".cocp").hover(function()
+    {
+      $(".hovercontente").css("display", "block");
+    }, function(){
+  $(".hovercontente").css("display", "none");
+    });
+    $(".minipill").hover(function()
+    {
+      $(".hovercontentf").css("display", "block");
+    }, function(){
+  $(".hovercontentf").css("display", "none");
+    });
+    $(".implant").hover(function()
+    {
+      $(".hovercontentg").css("display", "block");
+    }, function(){
+  $(".hovercontentg").css("display", "none");
+    });
+    $(".IUS").hover(function()
+    {
+      $(".hovercontenth").css("display", "block");
+    }, function(){
+  $(".hovercontenth").css("display", "none");
+    });
+    $(".injection").hover(function()
+    {
+      $(".hovercontenti").css("display", "block");
+    }, function(){
+  $(".hovercontenti").css("display", "none");
+    });
+    $(".IUD").hover(function()
+    {
+      $(".hovercontentj").css("display", "block");
+    }, function(){
+  $(".hovercontentj").css("display", "none");
+    });
+    $(".malesteri").hover(function()
+    {
+      $(".hovercontentk").css("display", "block");
+    }, function(){
+  $(".hovercontentk").css("display", "none");
+    });
+  $(".femalesteri").hover(function()
+    {
+      $(".hovercontentl").css("display", "block");
+    }, function(){
+  $(".hovercontentl").css("display", "none");
+    });
+     </script>
+
   </body>
 </html>
