@@ -32,7 +32,7 @@
           <th>Condoms (female)</th>
         </tr>
         <tr>
-          <td> <div class="malecondom">
+          <td> <a href="condom.html"> <div class="malecondom">
                   <div class="hovercontenta">
                     <div>
                       <ul>
@@ -43,6 +43,7 @@
                       </ul>
                   </div>
           </td>
+          </a>
           <td>
             <div class="femalecondom">
                     <div class="hovercontentb">
@@ -223,6 +224,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
+    $("h1").css("color", "black");
     $(".malecondom").hover(function()
     {
       $(".hovercontenta").css("display", "block");
