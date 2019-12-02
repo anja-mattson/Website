@@ -49,7 +49,6 @@ i {
 .background-image-container {
     background-image: url('./background.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
     height:750px;
     width: 1450px;
     opacity: 0.9;
