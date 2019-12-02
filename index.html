@@ -5,6 +5,9 @@
       Contraception
     </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src= "js/scripts.js"> </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -14,7 +17,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="about.html">About <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="index.html">Methods</a>
       <a class="nav-item nav-link" href="#">Quiz</a>
     </div>
@@ -31,22 +34,69 @@
           <th>Condoms (female)</th>
         </tr>
         <tr>
-          <td> <img src="https://cdn0.iconfinder.com/data/icons/nasty-2/64/condom-love_protection_sex_love-512.png" class="rounded float-left" alt="male condom"> </td>
-
-          <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOcawtFMmzvHoApOGh-ol0lnqVBLJz04NuJ4BaEJdRo4gh_6E6kg&s" class="rounded float-right" alt="female condom"> </td>
+          <td> <div class="malecondom">
+                  <div class="hovercontent">
+                    <div>
+                      <p> Condoms(male)</p>
+                      <ul>
+                        <li> Protects against STIs</li>
+                        <li> 82% effective</li>
+                        <li> Remember each time before sex</li>
+                        <li> No hormones</li>
+                      </ul>
+                  </div>
+          </td>
+          <td>
+            <div class="femalecondom">
+                    <div class="hovercontent">
+                      <div>
+                        <p> Condoms(female)</p>
+                        <ul>
+                          <li> No STI protection</li>
+                          <li> 82% effective</li>
+                          <li> Remember each time before sex</li>
+                          <li> No hormones</li>
+                        </ul>
+                    </div>
+            </td>
         </tr>
       </table>
+    </div>
+    <div class="caps">
       <table style="100% width">
         <tr>
           <th>Cervical Cap</th>
           <th>Diaphragm (spermicide)</th>
         </tr>
         <tr>
-            <td> <img src="https://media.istockphoto.com/vectors/cervical-cap-open-outline-feminine-care-icon-vector-id948263440?k=6&m=948263440&s=612x612&w=0&h=4ioc8R78ufHMuuw3i1fk9eeu8hb4djfHlJ8Nh2MIGbA=" class="rounded float-left" alt="cervical cap"> </td>
-            <td> <img src="https://youngwomenshealth.org/wp-content/uploads/2014/04/diaphragm.png" class="rounded float-left" alt="diaphgram"> </td>
+          <td> <div class="cervicalcap">
+                  <div class="hovercontent">
+                    <div>
+                      <p> Cervical Cap</p>
+                      <ul>
+                        <li> No STI protection</li>
+                        <li> 82% effective</li>
+                        <li> Remember each time before sex</li>
+                        <li> No hormones</li>
+                      </ul>
+                  </div>
+          </td>
+          <td> <div class="diaphragm">
+                  <div class="hovercontent">
+                    <div>
+                      <p> Diaphragm</p>
+                      <ul>
+                        <li> Protects against STIs</li>
+                        <li> 82% effective</li>
+                        <li> Remember each time before sex</li>
+                        <li> No hormones</li>
+                      </ul>
+                  </div>
+          </td>
         </tr>
       </table>
     </div>
+      <br>
     <h3> The Pills</h3>
     <div class="pills">
       <table style="100% width">
@@ -55,21 +105,65 @@
             <th>Mini-pill (POP)</th>
           </tr>
           <tr>
-            <td> <img src="https://resize.hswstatic.com/w_640/h_360/gif/videos/sog-135-the-pill-720.jpg" alt="COCP"> </td>
-            <td> <img src="https://youngwomenshealth.org/wp-content/uploads/2014/07/nor-qd-150x150.jpg" alt="Mini-pill"> </td>
+            <td> <div class="cocp">
+                    <div class="hovercontent">
+                      <div>
+                        <p> COCP</p>
+                        <ul>
+                          <li> Protects against STIs</li>
+                          <li> 82% effective</li>
+                          <li> Remember each time before sex</li>
+                          <li> No hormones</li>
+                        </ul>
+                    </div>
+            </td>
+            <td> <div class="minipill">
+                    <div class="hovercontent">
+                      <div>
+                        <p> Mini-Pill</p>
+                        <ul>
+                          <li> Protects against STIs</li>
+                          <li> 82% effective</li>
+                          <li> Remember each time before sex</li>
+                          <li> No hormones</li>
+                        </ul>
+                    </div>
+            </td>
           </tr>
       </table>
     </div>
     <h3> Fit and Forget</h3>
-    <div class="Fit and Forget">
+    <div class="fit-and-forget">
       <table style="100% width">
         <tr>
           <th>Implant</th>
           <th>IUS</th>
         </tr>
         <tr>
-          <td> <img src="https://assets.nhs.uk/prod/images/A_0917_contraceptive-implant_CT3HA.2e16d0ba.fill-920x613.jpg" alt="Implant"> </td>
-          <td> <img src="https://www.brook.org.uk/wp-content/uploads/2019/07/ius.png" alt="IUS"> </td>
+          <td> <div class="implant">
+                  <div class="hovercontent">
+                    <div>
+                      <p> Implant</p>
+                      <ul>
+                        <li> Protects against STIs</li>
+                        <li> 82% effective</li>
+                        <li> Remember each time before sex</li>
+                        <li> No hormones</li>
+                      </ul>
+                  </div>
+          </td>
+          <td> <div class="IUS">
+                  <div class="hovercontent">
+                    <div>
+                      <p> IUS</p>
+                      <ul>
+                        <li> Protects against STIs</li>
+                        <li> 82% effective</li>
+                        <li> Remember each time before sex</li>
+                        <li> No hormones</li>
+                      </ul>
+                  </div>
+          </td>
         </tr>
       </table>
       <table style="100% width">
@@ -78,8 +172,30 @@
           <th>IUD</th>
         </tr>
         <tr>
-          <td> <img src="https://www.brook.org.uk/wp-content/uploads/2019/07/contraceptive-injection.png" alt="Injection"> </td>
-          <td> <img src="http://images.agoramedia.com/wte3.0/gcms/All-About-IUDs-722x406.jpg?width=414" alt="IUD"> </td>
+          <td> <div class="injection">
+                  <div class="hovercontent">
+                    <div>
+                      <p> Mini-Pill</p>
+                      <ul>
+                        <li> Protects against STIs</li>
+                        <li> 82% effective</li>
+                        <li> Remember each time before sex</li>
+                        <li> No hormones</li>
+                      </ul>
+                  </div>
+          </td>
+          <td> <div class="IUD">
+                  <div class="hovercontent">
+                    <div>
+                      <p> Mini-Pill</p>
+                      <ul>
+                        <li> Protects against STIs</li>
+                        <li> 82% effective</li>
+                        <li> Remember each time before sex</li>
+                        <li> No hormones</li>
+                      </ul>
+                  </div>
+          </td>
         </tr>
       </table>
     </div>
@@ -91,8 +207,30 @@
           <th>Female Sterilisation</th>
         </tr>
         <tr>
-          <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxkQJ1tjN4oSvrjSkX2z-8px5ObaLoO8cc-Cy1aYE6h6t61lPJsg&s" alt="male surgery"> </td>
-          <td> <img src="https://sh24.org.uk/assets/mvp2/female_sterilisation/female_sterilisation_how_why3-d30c7c4507fb90a124b1e480f56bbbc8fa4f0506d3c025c996d01c522e56c798.png" alt="female surgery"> </td>
+          <td> <div class="malesteri">
+                  <div class="hovercontent">
+                    <div>
+                      <p> Mini-Pill</p>
+                      <ul>
+                        <li> Protects against STIs</li>
+                        <li> 82% effective</li>
+                        <li> Remember each time before sex</li>
+                        <li> No hormones</li>
+                      </ul>
+                  </div>
+          </td>
+          <td> <div class="femalesteri">
+                  <div class="hovercontent">
+                    <div>
+                      <p> Mini-Pill</p>
+                      <ul>
+                        <li> Protects against STIs</li>
+                        <li> 82% effective</li>
+                        <li> Remember each time before sex</li>
+                        <li> No hormones</li>
+                      </ul>
+                  </div>
+          </td>
         </tr>
       </table>
     </div>

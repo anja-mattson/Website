@@ -1,0 +1,127 @@
+
+.malecondom {
+    background-image:url(https://cdn0.iconfinder.com/data/icons/nasty-2/64/condom-love_protection_sex_love-512.png);
+    height:400px;
+    width:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.femalecondom{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOcawtFMmzvHoApOGh-ol0lnqVBLJz04NuJ4BaEJdRo4gh_6E6kg&s);
+    height:400px;
+    width:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .condoms{
+    margin:0 auto;
+    width: 800px;
+  }
+
+  .cervicalcap{
+      background-image:url(https://media.istockphoto.com/vectors/cervical-cap-open-outline-feminine-care-icon-vector-id948263440?k=6&m=948263440&s=612x612&w=0&h=4ioc8R78ufHMuuw3i1fk9eeu8hb4djfHlJ8Nh2MIGbA=);
+      height:400px;
+      width:400px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  .diaphgram{
+        background-image:url(https://youngwomenshealth.org/wp-content/uploads/2014/04/diaphragm.png);
+        height:400px;
+        width:400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .caps{
+        margin:0 auto;
+        width: 800px;
+      }
+
+   .cocp{
+          background-image:url(https://resize.hswstatic.com/w_640/h_360/gif/videos/sog-135-the-pill-720.jpg);
+          height:400px;
+          width:400px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+.minipill{
+          background-image:url(https://youngwomenshealth.org/wp-content/uploads/2014/07/nor-qd-150x150.jpg);
+          height:400px;
+          width:400px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+    .pills{
+          margin:0 auto;
+          width: 800px;
+        }
+
+.implant{
+          background-image:url(https://assets.nhs.uk/prod/images/A_0917_contraceptive-implant_CT3HA.2e16d0ba.fill-920x613.jpg);
+          height:400px;
+          width:400px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+              }
+.IUS{
+          background-image:url(https://www.brook.org.uk/wp-content/uploads/2019/07/ius.png);
+          height:400px;
+          width:400px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+                }
+
+.injection{
+          background-image:url(https://www.brook.org.uk/wp-content/uploads/2019/07/contraceptive-injection.png);
+          height:400px;
+          width:400px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+                }
+.IUD{
+          background-image:url(http://images.agoramedia.com/wte3.0/gcms/All-About-IUDs-722x406.jpg?width=414);
+          height:400px;
+          width:400px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+                }
+.fit-and-forget{
+          margin:0 auto;
+          width: 800px;
+                }
+.malesteri{
+          background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxkQJ1tjN4oSvrjSkX2z-8px5ObaLoO8cc-Cy1aYE6h6t61lPJsg&s);
+          height:400px;
+          width:400px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+                  }
+.femalesteri{
+          background-image:url(https://sh24.org.uk/assets/mvp2/female_sterilisation/female_sterilisation_how_why3-d30c7c4507fb90a124b1e480f56bbbc8fa4f0506d3c025c996d01c522e56c798.png);
+          height:400px;
+          width:400px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+                  }
+.Surgery{
+          margin:0 auto;
+          width: 800px;
+                }
+.hovercontent {
+  justify-content: center;
+  display:none;
+  }
+
+body{
+    text-align: center;
+}
