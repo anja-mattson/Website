@@ -1,4 +1,95 @@
 
+header {
+    width: 100%;
+    padding: 25px;
+    z-index: 10;
+    position: fixed;
+    background-color: transparent;
+}
+
+body{
+    text-align: center;
+    vertical-align: middle;
+    background-image:url('https://images.unsplash.com/photo-1570475735025-6cd1cd5c779d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  word-spacing: 2px;
+  letter-spacing: 0.02em;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  padding-top: 15px;
+  letter-spacing: 0.1em;
+  min-height: 50px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+i {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.fa-instagram {
+  font-size: 26px;
+  color: white;
+}
+
+.fa-facebook {
+  font-size: 26px;
+  color: white;
+}
+
+.fa-twitter {
+  font-size: 26px;
+  color: white;
+}
+
+h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 50px;
+  word-spacing: 2px;
+  letter-spacing: 0.01em;
+}
+
+h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 34px;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 25px;
+}
+
+th{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+
+
 .malecondom {
     background-image:url(https://image.shutterstock.com/image-vector/cartoon-condom-sperm-inside-protection-600w-1332741119.jpg);
     height:400px;
@@ -262,81 +353,3 @@
     line-height: 100px;
     color: rgb(230, 239, 242);
       }
-
-header {
-    width: 100%;
-    padding: 25px;
-    z-index: 10;
-    position: fixed;
-    background-color: transparent;
-}
-
-body{
-    text-align: center;
-    vertical-align: middle;
-    background-image:url('https://images.unsplash.com/photo-1570475735025-6cd1cd5c779d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-h1 {
-  color: white;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 50px;
-  font-weight: 400;
-  word-spacing: 2px;
-  letter-spacing: 0.02em;
-}
-
-a {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  font-size: 19px;
-  padding-top: 15px;
-  letter-spacing: 0.1em;
-  min-height: 50px;
-  margin-bottom: 20px;
-  color: white;
-  text-transform: uppercase;
-}
-
-i {
-  margin-right: 5px;
-  margin-left: 5px;
-  margin-top: 2px;
-}
-
-.fa-instagram {
-  font-size: 26px;
-  color: white;
-}
-
-.fa-facebook {
-  font-size: 26px;
-  color: white;
-}
-
-.fa-twitter {
-  font-size: 26px;
-  color: white;
-}
-
-h2{
-  color: white;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-}
-
-h3{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: white;
-}
-th{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 22px;
-  color: white;
-}
