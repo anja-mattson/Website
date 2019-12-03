@@ -1,8 +1,6 @@
 header {
     width: 100%;
     padding: 25px;
-    z-index: 10;
-    position: fixed;
     background-color: transparent;
 }
 
@@ -45,13 +43,6 @@ i {
   font-size: 26px;
 }
 
-.background-image-container {
-    background-image:url('https://images.unsplash.com/photo-1570475735025-6cd1cd5c779d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 
 h2 {
   color: white;
@@ -69,6 +60,14 @@ h3{
   font-size: 21px;
   margin-left: 50px
 }
+
+body{
+  background-image: url('https://images.unsplash.com/photo-1570475735025-6cd1cd5c779d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+
 
 .form-group{
   margin-left: 50px;
