@@ -55,6 +55,8 @@
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 300;
         }
 .minipill{
           background-image:url(https://www.brook.org.uk/wp-content/uploads/2019/07/progestogen-only-pill.png);
@@ -63,6 +65,8 @@
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 300;
         }
 
     .pills{
@@ -77,6 +81,8 @@
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 300;
               }
 .IUS{
           background-image:url(https://www.brook.org.uk/wp-content/uploads/2019/07/ius.png);
@@ -85,6 +91,8 @@
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 300;
                 }
 
 .injection{
@@ -94,6 +102,8 @@
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 300;
                 }
 .IUD{
           background-image:url(http://images.agoramedia.com/wte3.0/gcms/All-About-IUDs-722x406.jpg?width=414);
@@ -102,6 +112,8 @@
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 300;
                 }
 .fit-and-forget{
           margin:0 auto;
@@ -114,6 +126,8 @@
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 300;
                   }
 .femalesteri{
           background-image:url(https://i.ytimg.com/vi/DHhlMIgLKB8/maxresdefault.jpg?fbclid=IwAR2BDm6zYmb_XGA3Z9d3TXboOhhiaKiH9bH9Diav1URooMj57vZrPrkpPb8);
@@ -122,6 +136,8 @@
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 300;
                   }
 .Surgery{
           margin:0 auto;
@@ -313,5 +329,11 @@ h2{
 h3{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  color: white;
+}
+th{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
   color: white;
 }
