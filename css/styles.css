@@ -5,6 +5,8 @@
     width:400px;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 .femalecondom{
     background-image:url(http://www.ashasexualhealth.org/wp-content/uploads/2014/08/female_condom-300x195.png);
@@ -13,6 +15,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
   }
   .condoms{
     margin:0 auto;
@@ -25,6 +29,8 @@
       width:400px;
       background-size: cover;
       background-repeat: no-repeat;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
     }
   .diaphragm{
         background-image:url(https://www.brook.org.uk/wp-content/uploads/2019/07/diaphragms-and-caps.png);
@@ -33,6 +39,8 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
       }
 
       .caps{
@@ -239,9 +247,71 @@
     color: rgb(230, 239, 242);
       }
 
+header {
+    width: 100%;
+    padding: 25px;
+    z-index: 10;
+    position: fixed;
+    background-color: transparent;
+}
+
 body{
     text-align: center;
     vertical-align: middle;
-    background-image:url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Minimalist-Crumpled-Paper-Simple-Background-Image.jpg');
+    background-image:url('https://images.unsplash.com/photo-1570475735025-6cd1cd5c779d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80');
     background-size: contain;
+}
+
+h1 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  word-spacing: 2px;
+  letter-spacing: 0.02em;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  padding-top: 15px;
+  letter-spacing: 0.1em;
+  min-height: 50px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+i {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.fa-instagram {
+  font-size: 26px;
+  color: white;
+}
+
+.fa-facebook {
+  font-size: 26px;
+  color: white;
+}
+
+.fa-twitter {
+  font-size: 26px;
+  color: white;
+}
+
+h2{
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: white;
 }
