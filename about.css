@@ -69,3 +69,6 @@ p {
   word-spacing: 2px;
   line-height: 1.5;
 }
+.navbar{
+  float:right;
+}
