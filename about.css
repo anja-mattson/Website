@@ -62,8 +62,9 @@ p {
   line-height: 1.5;
   margin-left: 10px;
 }
+
 body{
   background-image: url('./background.jpg');
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
 }
